@@ -1,0 +1,20 @@
+/* Stili personalizzati per il bottone success disabilitato */
+.btn-success:disabled {
+  background-color: #198754 !important; /* Verde Bootstrap success standard */
+  border-color: #198754 !important; /* Bordo verde */
+  color: white !important; /* Testo bianco */
+  opacity: 1 !important; /* Mantiene opacità piena */
+}
+
+.btn-success:disabled:hover {
+  background-color: #198754 !important; /* Mantiene il verde anche al hover */
+  border-color: #198754 !important;
+  color: white !important;
+}
+
+.btn-success:disabled:focus {
+  background-color: #198754 !important; /* Mantiene il verde anche al focus */
+  border-color: #198754 !important;
+  color: white !important;
+  box-shadow: none !important; /* Rimuove l'ombra del focus */
+}
